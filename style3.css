@@ -1,0 +1,114 @@
+.header{
+    width: 100%;
+    height: 150px;
+    text-align: left;
+    background-color: blue;
+    margin-top: 0;
+    
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header > .halo{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 40px;
+    color: yellow;
+    padding-left: 10px;
+}
+
+.header > .website{
+    padding-left: 10px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav {
+    float: left;
+    margin-top: 10px;
+    width: 20%;
+    height: 550px;
+    border: dashed blue;
+    text-decoration: none;
+}
+
+.nav > li{
+    margin-left: 5px;
+    font-size: 30px;
+    padding: 5px;
+    list-style: none;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav > li > a:hover{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+.content:after{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: right;
+    width: 30%;
+    height: 400px;
+}
+
+.content > img{
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content > h1{
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+.content > h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content > .mewujudkan{
+    font-size: 38px;
+    text-align: center;
+    color: red;
+}
+
+
+.footer{
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+}
+
+.footer > p {
+    flex-direction: row;
+    width:100% ;
+    padding-top: 10px;
+   text-align: right;
+   font-size: 25px;
+   
+}
